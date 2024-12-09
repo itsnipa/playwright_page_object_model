@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-07T11:23:01 EST" name="Default suite" finished-at="2024-12-07T11:23:21 EST" duration-ms="19200">
+    <groups>
+    </groups>
+    <test started-at="2024-12-07T11:23:01 EST" name="Default test" finished-at="2024-12-07T11:23:21 EST" duration-ms="19200">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="openUrl(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@799f10e1]" started-at="2024-12-07T11:23:01 EST" name="openUrl" finished-at="2024-12-07T11:23:18 EST" duration-ms="16323" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="testLogin()[pri:0, instance:tests.LoginTest@799f10e1]" started-at="2024-12-07T11:23:18 EST" name="testLogin" finished-at="2024-12-07T11:23:20 EST" duration-ms="2217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.LoginTest@799f10e1]" started-at="2024-12-07T11:23:20 EST" name="afterClass" finished-at="2024-12-07T11:23:21 EST" duration-ms="620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
